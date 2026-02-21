@@ -8,6 +8,7 @@
 ![HTML](https://img.shields.io/badge/HTML-5-orange)
 ![CSS](https://img.shields.io/badge/CSS-3-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Deployed](https://img.shields.io/badge/Deployed-CCBP-blueviolet)
 
 ---
 
@@ -53,3 +54,19 @@ cat-light-switch/
 ├── style.css
 ├── script.js
 └── README.md
+```
+🚀 Live Demo
+
+🔗 Deployed on CCBP (Mini JS Project):
+https://minijs.ccbp.tech
+
+
+👨‍💻 Author
+
+  Arun Kumar
+  
+  🎓 Engineering Student
+  
+  💻 Aspiring Full Stack Developer
+
+GitHub: https://github.com/arunkumar-201
