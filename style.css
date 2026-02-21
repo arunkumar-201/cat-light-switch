@@ -1,0 +1,47 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.bulb-image {
+    width: 150px;
+}
+
+.cat-image {
+    width: 300px;
+}
+
+.switch-board {
+    width: 294px;
+    background-color: #7b8794;
+    border-radius: 12px;
+    padding: 32px 16px;
+    margin: 16px;
+}
+
+.switch-status {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.off-switch,
+.on-switch {
+    width: 99px;
+    height: 44px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.off-switch {
+    background-color: #e12d39;
+}
+
+.on-switch {
+    background-color: #cbd2d9;
+    margin-left: 16px;
+}

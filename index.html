@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Light Switch</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        roboto: ["Roboto", "sans-serif"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-[#0b0b0b] min-h-screen flex flex-col justify-center items-center">
+
+    <!-- Bulb -->
+    <img id="bulbimg"
+        src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"
+        class="bulb-image" />
+
+    
+    <img id="catimg"
+        src="https://d2clawv67efefq.cloudfront.net/ccbp-dynamic-webapps/cat-img.png"
+        class="cat-image" />
+
+    
+    <div class="pt-5 text-center">
+        <div class="switch-board">
+
+            <h1 id="switchstatus" class="switch-status">
+                Switched On
+            </h1>
+
+            <button id="offswitch" onclick="switchoff()" class="off-switch">
+                OFF
+            </button>
+
+            <button id="onswitch" onclick="switchon()" class="on-switch">
+                ON
+            </button>
+
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
